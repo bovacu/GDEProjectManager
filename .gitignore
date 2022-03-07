@@ -1,2 +1,5 @@
 
 .idea/
+/cmake-build-debug_lib/
+/cmake-build-release/
+/cmake-build-debug/
