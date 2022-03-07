@@ -1,0 +1,54 @@
+{
+  "data": {
+    "IDEs": [
+      {
+        "ide_name": "CLion",
+        "ide_path": "clion"
+      },
+      {
+        "ide_name": "VSCode",
+        "ide_path": "code"
+      },
+      {
+        "ide_name": "NVim",
+        "ide_path": "/usr/bin/nvim"
+      },
+      {
+        "ide_name": "nvim",
+        "ide_path": "/home/borja/Testing/Test0/nvim.sh"
+      }
+    ],
+    "android": {
+      "android_ndk_path": "/home/borja/Android/Sdk/ndk/20.1.5948944/",
+      "android_sdk_path": "/home/borja/Android/Sdk/",
+      "android_studio_path": "/home/borja/android-studio/",
+      "jdk8_path": "/home/borja/android-studio/jre/jdk1.8.0_321/"
+    },
+    "firebase": {
+      "firebase_path": "/home/borja/Documents/C++/GDE/modules/GDEFirebase"
+    },
+    "gde_path": "/home/borja/Documents/C++/GDE"
+  },
+  "projects": [
+    {
+      "default_ide": "nvim",
+      "project_name": "Test0",
+      "project_path": "/home/borja/Testing/Test0"
+    },
+    {
+      "default_ide": "CLion",
+      "project_name": "Test1",
+      "project_path": "/home/borja/Testing/Test1"
+    },
+    {
+      "default_ide": "CLion",
+      "project_name": "Test2",
+      "project_path": "/home/borja/Testing/Test2"
+    },
+    {
+      "default_ide": "",
+      "project_name": "GDEProjectManager",
+      "project_path": "/home/borja/Documents/C++/GDEProjectManager"
+    }
+  ]
+}

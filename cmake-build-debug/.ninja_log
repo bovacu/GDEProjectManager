@@ -1,0 +1,19 @@
+# ninja log v5
+4	3364	1646656955180838297	CMakeFiles/GDEProjectManager.dir/code/src/ProjectSelector.cpp.o	b2065bc56fbdbf3
+3	2843	1646656977097066945	CMakeFiles/GDEProjectManager.dir/code/src/ProjectViewer.cpp.o	90a37fd526f0a743
+4	2209	1646657006333392910	CMakeFiles/GDEProjectManager.dir/code/src/ProjectModules.cpp.o	59e0daf1a5d635bb
+0	3743	1646656937424663369	CMakeFiles/GDEProjectManager.dir/code/src/ProjectCreator.cpp.o	5a285a92baad3704
+0	1920	1646656935608646013	CMakeFiles/GDEProjectManager.dir/main.cpp.o	948ea35e45708b0
+4	3080	1646657037745768420	CMakeFiles/GDEProjectManager.dir/code/src/ProjectInstallator.cpp.o	b40dc041f1e5bd7c
+0	539	1646656934232632928	CMakeFiles/GDEProjectManager.dir/code/src/ProjectMenuBar.cpp.o	803621bf03f36182
+3	3819	1646657067486146699	CMakeFiles/GDEProjectManager.dir/code/src/ProjectManagerLayer.cpp.o	463b13e9e6e0a80a
+3819	4493	1646657068170155648	GDEProjectManager	a8da0dbcde7a15d3
+5	782	1646657130947022145	CMakeFiles/GDEProjectManager.dir/code/src/ProjectMenuBar.cpp.o	7fc55e6ee62c4d41
+4	2035	1646657132195040239	CMakeFiles/GDEProjectManager.dir/main.cpp.o	e758fec3e93e5f0c
+6	3653	1646657133807063657	CMakeFiles/GDEProjectManager.dir/code/src/ProjectModules.cpp.o	22320d8e59c34e69
+5	3659	1646657133815063773	CMakeFiles/GDEProjectManager.dir/code/src/ProjectInstallator.cpp.o	24e84c2626169d5b
+6	3758	1646657133887064820	CMakeFiles/GDEProjectManager.dir/code/src/ProjectSelector.cpp.o	6e05e28580ca54a9
+5	3937	1646657134087067729	CMakeFiles/GDEProjectManager.dir/code/src/ProjectCreator.cpp.o	57603e071b8a990
+6	4304	1646657134455073086	CMakeFiles/GDEProjectManager.dir/code/src/ProjectManagerLayer.cpp.o	3d272d13284d699b
+6	4331	1646657134483073494	CMakeFiles/GDEProjectManager.dir/code/src/ProjectViewer.cpp.o	932dbbc4bd4b05eb
+4331	4879	1646657135043081647	GDEProjectManager	a8da0dbcde7a15d3
