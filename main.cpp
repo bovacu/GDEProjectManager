@@ -6,6 +6,7 @@ using namespace engine;
 
 int main(int, char* []) {
     Engine _e;
+    _e.onInit();
     auto* _testLayer = new ProjectManagerLayer;
     _e.pushLayer(_testLayer);
     _e.onRun();
