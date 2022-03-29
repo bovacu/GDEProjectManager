@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(PLACEHOLDER)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 SET(TARGET_LINKS Engine
         Threads::Threads glad freetype sdl2 SDL2_mixer sdl2_image sdl2_net ${CMAKE_DL_LIBS}
@@ -10,7 +10,7 @@ SET(TARGET_LINKS Engine
 
 set(GDE_PATH)
 
-add_library(Engine STATIC IMPORTED code/include/TestLayer.h code/src/TestLayer.cpp)
+add_library(Engine STATIC IMPORTED)
 set_target_properties(Engine PROPERTIES IMPORTED_LOCATION ${GDE_PATH}/libs_out/libEngine.a)
 
 find_package(Threads REQUIRED)
