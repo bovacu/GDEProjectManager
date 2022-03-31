@@ -5,6 +5,7 @@
 #include "ProjectManagerLayer.h"
 #include <core/Engine.h>
 #include <imgui_internal.h>
+#include <fstream>
 #include "Macros.h"
 
 namespace engine {

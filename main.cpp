@@ -8,7 +8,7 @@ int main(int, char* []) {
     Engine _e;
     _e.onInit();
     auto* _testLayer = new ProjectManagerLayer;
-    _e.pushLayer(_testLayer);
+    _e.setScene(_testLayer);
     _e.onRun();
     _e.destroy();
     return 0;

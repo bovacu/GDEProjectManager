@@ -4,6 +4,7 @@
 #include <core/Engine.h>
 #include <FileBrowser/ImGuiFileBrowser.h>
 #include <imgui_internal.h>
+#include <core/render/Renderer.h>
 #include "Macros.h"
 
 
@@ -29,11 +30,11 @@ namespace engine {
 
     void ProjectManagerLayer::onEvent(Event& _event) {  }
     void ProjectManagerLayer::onUpdate(Delta _dt) {  }
-    void ProjectManagerLayer::onFixedUpdate(Delta _dt) { Layer::onFixedUpdate(_dt); }
+    void ProjectManagerLayer::onFixedUpdate(Delta _dt) { Scene::onFixedUpdate(_dt); }
     void ProjectManagerLayer::onRender(Delta _dt) {  }
 
     void ProjectManagerLayer::onImGuiRender(Delta _dt) {
-        Layer::onImGuiRender(_dt);
+        Scene::onImGuiRender(_dt);
         projectMenuBar.render();
         mainImGuiWindow();
 //        ImGui::ShowDemoWindow();
@@ -43,7 +44,7 @@ namespace engine {
     }
 
     void ProjectManagerLayer::onEnd() {
-        Layer::onEnd();
+        Scene::onEnd();
     }
 
     void ProjectManagerLayer::mainImGuiWindow() {

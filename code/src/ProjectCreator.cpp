@@ -4,6 +4,7 @@
 #include <imgui.h>
 #include <core/Engine.h>
 #include <core/systems/fileSystem/FilesSystem.h>
+#include <fstream>
 #include "ProjectSelector.h"
 #include "Macros.h"
 

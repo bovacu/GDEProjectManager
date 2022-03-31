@@ -7,6 +7,7 @@
 #include <core/systems/fileSystem/FilesSystem.h>
 #include "ProjectManagerLayer.h"
 #include <imgui_internal.h>
+#include <fstream>
 #include "Macros.h"
 
 namespace engine {

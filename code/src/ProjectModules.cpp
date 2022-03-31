@@ -6,6 +6,7 @@
 #include <core/Engine.h>
 #include <core/systems/fileSystem/FilesSystem.h>
 #include <imgui_internal.h>
+#include <fstream>
 #include "ProjectManagerLayer.h"
 #include "Macros.h"
 

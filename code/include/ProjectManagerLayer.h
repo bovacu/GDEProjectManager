@@ -4,7 +4,7 @@
 #ifndef ENGINE2_0_PROJECT_MANAGER_LAYER_H
 #define ENGINE2_0_PROJECT_MANAGER_LAYER_H
 
-#include "core/render/layers/Layer.h"
+#include "core/graph/Scene.h"
 #include "imgui.h"
 #include "core/systems/fileSystem/FilesSystem.h"
 #include "ProjectCreator.h"
@@ -77,7 +77,7 @@ namespace engine {
         }
     };
 
-    class ProjectManagerLayer : public Layer {
+    class ProjectManagerLayer : public Scene {
 
         private:
             GlobalConfig globalConfig;
@@ -90,7 +90,7 @@ namespace engine {
             ProjectMenuBar projectMenuBar;
 
         public:
-            ProjectManagerLayer() : Layer("ProjectManagerLayer") {  }
+            ProjectManagerLayer() : Scene("ProjectManagerLayer") {  }
             void onInit() override;
             void onEvent(Event& _event) override;
             void onUpdate(Delta _dt) override;
